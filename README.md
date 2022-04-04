@@ -8,3 +8,8 @@
 - view account
 - update account
 - delete account
+
+## API
+| Method | URI         | Middleware |
+|--------|-------------|------------|
+| POST   | /login      | guest      |
