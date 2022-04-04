@@ -10,6 +10,14 @@
 - delete account
 
 ## API
-| Method | URI         | Middleware |
-|--------|-------------|------------|
-| POST   | /login      | guest      |
+| Method | URI                                 | Middleware |
+|--------|-------------------------------------|------------|
+| POST   | /authentication/login               | guest      |
+| POST   | /authentication/signup              | guest      |
+| POST   | /authentication/verify              | guest      |
+| POST   | /authentication/resend              | guest      |
+| POST   | /authentication/forgot-password     | guest      |
+| POST   | /authentication/change-password     | auth       |
+| GET    | /user                               | auth       |
+| PATCH  | /user                               | auth       |
+| DELETE | /user                               | auth       |
