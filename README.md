@@ -1,4 +1,5 @@
 # Simple-Authentication
+This is a simple rest api built with node js which aims to authenticate and manage accounts
 
 ## Features
 - login and signup
